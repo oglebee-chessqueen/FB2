@@ -1,15 +1,11 @@
-FB2
-
-Scripts (written by K. Hoadley) for calibrations, analysis, and telemetry for the FIREBall-2 balloon experiment
+FB2 Scripts (written by K. Hoadley) for calibrations, analysis, and telemetry for the FIREBall-2 balloon experiment
 Folders within the FB2 master repository:
 
-
-10 MBit telemetry
-
+Folders
+-------
+1 MBit telemetry
 Quicklook
-
 Analysis
-
 Calibration
 
 
@@ -18,17 +14,11 @@ FB2 Calibrations
 This repository will be used to store scripts to analyze different calibration tests/runs data taken with the science detector and to produce tangible results that can be referred to later.
 
 - Current planned calibration/testing that will need automated scripts:
-
 - focus of spectrograph
-
 - diagnsotics of spectrograph images: Spectral Range, Dispersion, PSF
-
 - Photon transfer curve analysis
-
 - Dark noise, Read noise analysis
-
 - Gain --> e/e conversion
-
 -  Auto-collimation: focus curves
 
 
@@ -54,12 +44,9 @@ fb2_define_spectra_locations(txtv1).py: Either reads in the PICKLE file produced
 Things I want to do/improve:
 
 - Use known positions of the science mask slits (provided by David) to create a known mask of all slit positions (and sizes) for the science detector.
-
 - Check with Vincent that the wavelength solutions determined using the 3 emission lines match (or are in good agreement) with optical models of FB2
-
 - Output extracted regions to FIT file (for people to access on their own), including wavelength solution(?)
 Per field, per slit: Hard-code in redshift to correct NUV wavelength solution --> FUV
-
 - Get requests from the group: What does everyone want to see right away from the flight data? What plots would be informative? Are there any outputs wanted right away, for people to manipulate on their own?
 
 
