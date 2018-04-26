@@ -1,0 +1,128 @@
+###
+### Accessing server for balloon_payload_tx_rx.c
+###
+server:  fireball2@192.168.10.46
+password: iseeuv123
+
+transmitter directory: cd /Communications/comsync-r15-port1/
+receiver directory: cd /Communications/comsync-r15-port2/
+
+making the executable: example can be found in:
+>> cat mktest
+But it is just:
+gcc -w -g balloon_payload_tx_rx_version.c -lpthread -o test2
+I have been using test2 because test is being used for the versio of the code
+	we know works, but without the break from the receiver mode. You can make
+  the executable whatever you want, just keep test as it is.
+
+Compile in both port1 and port2 directories
+
+Run ./test2 (or whatever you name it) in both port1 and port2 directories.
+Do port1 (transmitter) first: ./test2
+
+Comsync test util version 0.03 March 25 2013
+Connect Tech Inc.
+
+Non-block io?y/n y
+Print events?y/n y
+Use select API?y/n y
+
+Command Usage:
+1 Set RTS
+2 Clear RTS
+3 Set DTR
+4 Clear DTR
+5 Set Break
+6 Clear Break
+7 Purge Rx
+8 Purge Tx
+9 Purge RxTx
+10 Get line state
+11 Transmit
+12 Receive
+13 loopback
+14 exit
+
+I do 9 first, in port 1, every time, to make sure nothing is left from whatever
+	the last instance was.
+You should get "Purge Tx/Rx passed" at the end of it. If it fails, do it again.
+
+Then: In port 2 (I call this after the purge because purge won't work with
+  both ports in use [why? I don't know.])
+./test2
+
+Comsync test util version 0.03 March 25 2013
+Connect Tech Inc.
+
+Non-block io?y/n y
+Print events?y/n y
+Use select API?y/n y
+
+Command Usage:
+1 Set RTS
+2 Clear RTS
+3 Set DTR
+4 Clear DTR
+5 Set Break
+6 Clear Break
+7 Purge Rx
+8 Purge Tx
+9 Purge RxTx
+10 Get line state
+11 Transmit
+12 Receive
+13 loopback
+14 exit
+
+12
+
+enter packet size (Max 4096)
+256
+enter delay between packets for receive (milliseconds)
+1
+enter data receive mode raw:1, file:2
+2
+enter file name
+(test - whatever name you want).txt (or correct file extension)
+
+
+Then: in port1 -- 11
+enter packet size (Max 4096)
+256
+enter delay between packets for transmit (milliseconds)
+1
+enter data transmit mode raw:1, file:2
+2
+enter file name
+test.txt
+Send once? y/n y
+
+Transmitter should run through; sometimes events will pop up in receiver
+window. ***SHOULD START WITH events100 --> I have found that if it
+	does not start with events100, then ususally nothing transfers.
+
+When transfer is done, port1 window will go back to:
+Command Usage:
+1 Set RTS
+2 Clear RTS
+3 Set DTR
+4 Clear DTR
+5 Set Break
+6 Clear Break
+7 Purge Rx
+8 Purge Tx
+9 Purge RxTx
+10 Get line state
+11 Transmit
+12 Receive
+13 loopback
+14 exit
+
+At this point, I exit out (14) and Crtl+C from port2.
+
+
+I have tested with: test.txt, image000019.fits, image000019.tar.gz, hk.tar.gz,
+and other random txt/csv files. Feel free to test with any of those.
+
+
+If you run into anything else weird, let me know! <3
