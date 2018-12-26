@@ -1,0 +1,303 @@
+# Region file format: DS9 version 4.1
+global color=green dashlist=8 3 width=1 font="helvetica 10 normal roman" select=1 highlite=1 dash=0 fixed=0 edit=1 move=1 delete=1 include=1 source=1
+image
+box(947.96,1907.17,10,20,0) # color=blue text={1}
+box(1039.33,1872.26,10,20,0) # color=blue text={2}
+box(1040.67,1770.44,10,20,0) # color=blue text={3}
+box(605.52,1722.38,10,20,0) # color=blue text={4}
+box(432.1,1640.68,10,20,0) # color=blue text={5}
+box(358.09,1624.80,10,20,0) # color=blue text={6}
+box(805.56,1595.85,10,20,0) # color=blue text={7}
+box(526.34,1548.52,10,20,0) # color=blue text={8}
+box(562.84,1490.68,10,20,0) # color=blue text={9}
+box(930.62,1460.09,10,20,0) # color=blue text={10}
+box(978.73,1426.64,10,20,0) # color=blue text={11}
+box(467.01,1401.54,10,20,0) # color=blue text={12}
+box(664.76,1370.74,10,20,0) # color=blue text={13}
+box(272.5,1327.26,10,20,0) # color=blue text={14}
+box(1057.14,1224.95,10,20,0) # color=blue text={15}
+box(823.98,1154.33,10,20,0) # color=blue text={16}
+box(845.2,1139.09,10,20,0) # color=blue text={17}
+box(433.81,1121.43,10,20,0) # color=blue text={18}
+box(462.7,1082.21,10,20,0) # color=blue text={19}
+box(738.53,1037.62,10,20,0) # color=blue text={20}
+box(263.77,993.36,10,20,0) # color=blue text={21}
+box(378.82,911.54,10,20,0) # color=blue text={22}
+box(673.98,873.58,10,20,0) # color=blue text={23}
+box(224.01,855.15,10,20,0) # color=blue text={24}
+box(761.1,812.98,10,20,0) # color=blue text={25}
+box(449.9,754.86,10,20,0) # color=blue text={26}
+box(344.99,729.08,10,20,0) # color=blue text={27}
+box(698.39,703.77,10,20,0) # color=blue text={28}
+box(420.28,698.19,10,20,0) # color=blue text={29}
+box(586.16,655.47,10,20,0) # color=blue text={30}
+box(897.19,584.10,10,20,0) # color=blue text={31}
+box(627.49,566.91,10,20,0) # color=blue text={32}
+box(341.96,558.18,10,20,0) # color=blue text={33}
+box(589.96,511.45,10,20,0) # color=blue text={34}
+box(469.22,437.10,10,20,0) # color=blue text={35}
+box(722.63,412.03,10,20,0) # color=blue text={36}
+box(765.8,372.01,10,20,0) # color=blue text={37}
+box(649.65,325.87,10,20,0) # color=blue text={38}
+box(603.73,305.81,10,20,0) # color=blue text={39}
+box(836.6,280.94,10,20,0) # color=blue text={40}
+box(986.74,234.38,10,20,0) # color=blue text={41}
+box(1042.08,208.09,10,20,0) # color=blue text={42}
+box(687.91,204.15,10,20,0) # color=blue text={43}
+box(484.45,154.46,10,20,0) # color=blue text={44}
+box(507.99,40.77,10,20,0) # color=blue text={45}
+box(658.1,1897.96,10,20,0) # color=blue text={LyC 1}
+box(698.4,1823.42,10,20,0) # color=blue text={LyC 2}
+box(739.55,1734.11,10,20,0) # color=blue text={LyC 3}
+box(750.37,1701.86,10,20,0) # color=blue text={LyC 4}
+box(564.84,1661.66,10,20,0) # color=blue text={LyC 5}
+box(349.95,1031.67,10,20,0) # color=blue text={LyC 6}
+box(199.31,280.92,10,20,0) # color=blue text={LyC 7}
+box(260.17,179.02,10,20,0) # color=blue text={LyC 8}
+box(423.15,1580.62,10,20,0) # color=blue text={OVI 1}
+box(664.46,1283.61,10,20,0) # color=blue text={OVI 2}
+box(782.71,1204.32,10,20,0) # color=blue text={OVI 3}
+box(520.37,1192.89,10,20,0) # color=blue text={OVI 4}
+box(864.9,1167.96,10,20,0) # color=blue text={OVI 5}
+box(682.5,1057.62,10,20,0) # color=blue text={OVI 6}
+box(770.83,937.46,10,20,0) # color=blue text={OVI 7}
+box(626.95,917.17,10,20,0) # color=blue text={OVI 8}
+box(457.48,864.12,10,20,0) # color=blue text={OVI 9}
+box(241.92,507.73,10,20,0) # color=blue text={OVI 10}
+box(826.58,354.75,10,20,0) # color=blue text={OVI 11}
+box(377.45,350.50,10,20,0) # color=blue text={OVI 12}
+box(838.9,181.95,10,20,0) # color=blue text={OVI 13}
+box(555.43,121.02,10,20,0) # color=blue text={OVI 14}
+box(725.01,-5.85,10,20,0) # color=blue text={OVI 15}
+box(221.82,977.93,10,20,0) # color=blue text={QSO 1}
+box(833.7,466.02,10,20,0) # color=blue text={QSO 2}
+box(1016.29,82.71,10,20,0) # color=blue text={QSO 3}
+box(860.22,537.79,10,20,0) # color=blue text={QSOgal 2}
+box(925.95,79.67,10,20,0) # color=blue text={QSOgal 4}
+box(948.36,60.64,10,20,0) # color=blue text={QSOgal 5}
+box(914.6,21.22,10,20,0) # color=blue text={QSOgal 6}
+box(776.99,1906.17,10,20,0) # color=green text={1}
+box(867.99,1872.06,10,20,0) # color=green text={2}
+box(869.78,1770.20,10,20,0) # color=green text={3}
+box(435.19,1722.31,10,20,0) # color=green text={4}
+box(261.68,1640.44,10,20,0) # color=green text={5}
+box(187.65,1624.28,10,20,0) # color=green text={6}
+box(635.47,1595.38,10,20,0) # color=green text={7}
+box(356.02,1548.33,10,20,0) # color=green text={8}
+box(392.58,1490.43,10,20,0) # color=green text={9}
+box(760.62,1459.73,10,20,0) # color=green text={10}
+box(808.71,1426.35,10,20,0) # color=green text={11}
+box(296.66,1401.29,10,20,0) # color=green text={12}
+box(494.67,1370.40,10,20,0) # color=green text={13}
+box(102.22,1327.08,10,20,0) # color=green text={14}
+box(886.9,1224.98,10,20,0) # color=green text={15}
+box(654.05,1154.00,10,20,0) # color=green text={16}
+box(675.27,1138.79,10,20,0) # color=green text={17}
+box(263.53,1121.15,10,20,0) # color=green text={18}
+box(292.43,1081.91,10,20,0) # color=green text={19}
+box(568.53,1037.25,10,20,0) # color=green text={20}
+box(93.9,992.82,10,20,0) # color=green text={21}
+box(208.68,911.15,10,20,0) # color=green text={22}
+box(503.88,873.23,10,20,0) # color=green text={23}
+box(54.47,854.13,10,20,0) # color=green text={24}
+box(591.03,812.62,10,20,0) # color=green text={25}
+box(279.73,754.52,10,20,0) # color=green text={26}
+box(175.01,728.47,10,20,0) # color=green text={27}
+box(528.26,703.43,10,20,0) # color=green text={28}
+box(250.16,697.79,10,20,0) # color=green text={29}
+box(416.0,655.18,10,20,0) # color=green text={30}
+box(726.79,583.95,10,20,0) # color=green text={31}
+box(457.34,566.61,10,20,0) # color=green text={32}
+box(171.99,557.50,10,20,0) # color=green text={33}
+box(419.82,511.16,10,20,0) # color=green text={34}
+box(299.15,436.71,10,20,0) # color=green text={35}
+box(552.41,411.78,10,20,0) # color=green text={36}
+box(595.51,371.81,10,20,0) # color=green text={37}
+box(479.5,325.60,10,20,0) # color=green text={38}
+box(433.64,305.49,10,20,0) # color=green text={39}
+box(666.13,280.92,10,20,0) # color=green text={40}
+box(816.05,234.48,10,20,0) # color=green text={41}
+box(871.44,208.08,10,20,0) # color=green text={42}
+box(517.72,203.98,10,20,0) # color=green text={43}
+box(314.53,153.89,10,20,0) # color=green text={44}
+box(338.18,40.07,10,20,0) # color=green text={45}
+box(487.62,1897.94,10,20,0) # color=green text={LyC 1}
+box(528.03,1823.16,10,20,0) # color=green text={LyC 2}
+box(569.3,1733.70,10,20,0) # color=green text={LyC 3}
+box(580.16,1701.42,10,20,0) # color=green text={LyC 4}
+box(394.51,1661.56,10,20,0) # color=green text={LyC 5}
+box(179.79,1031.33,10,20,0) # color=green text={LyC 6}
+box(28.69,280.48,10,20,0) # color=green text={LyC 7}
+box(89.44,179.02,10,20,0) # color=green text={LyC 8}
+box(252.73,1580.36,10,20,0) # color=green text={OVI 1}
+box(494.38,1283.26,10,20,0) # color=green text={OVI 2}
+box(612.77,1203.97,10,20,0) # color=green text={OVI 3}
+box(350.11,1192.58,10,20,0) # color=green text={OVI 4}
+box(694.97,1167.67,10,20,0) # color=green text={OVI 5}
+box(512.44,1057.26,10,20,0) # color=green text={OVI 6}
+box(600.82,937.10,10,20,0) # color=green text={OVI 7}
+box(456.82,916.83,10,20,0) # color=green text={OVI 8}
+box(287.28,863.80,10,20,0) # color=green text={OVI 9}
+box(72.14,506.54,10,20,0) # color=green text={OVI 10}
+box(656.17,354.63,10,20,0) # color=green text={OVI 11}
+box(207.4,349.95,10,20,0) # color=green text={OVI 12}
+box(668.39,182.07,10,20,0) # color=green text={OVI 13}
+box(385.51,120.51,10,20,0) # color=green text={OVI 14}
+box(554.74,-5.64,10,20,0) # color=green text={OVI 15}
+box(52.17,977.22,10,20,0) # color=green text={QSO 1}
+box(663.35,465.81,10,20,0) # color=green text={QSO 2}
+box(846.03,82.44,10,20,0) # color=green text={QSO 3}
+box(689.87,537.58,10,20,0) # color=green text={QSOgal 2}
+box(755.44,79.88,10,20,0) # color=green text={QSOgal 4}
+box(777.93,60.76,10,20,0) # color=green text={QSOgal 5}
+box(744.16,21.52,10,20,0) # color=green text={QSOgal 6}
+box(418.62,1904.07,10,20,0) # color=red text={1}
+box(508.82,1871.65,10,20,0) # color=red text={2}
+box(511.58,1769.69,10,20,0) # color=red text={3}
+box(78.16,1722.15,10,20,0) # color=red text={4}
+box(-95.56,1639.92,10,20,0) # color=red text={5}
+box(-169.62,1623.21,10,20,0) # color=red text={6}
+box(278.95,1594.40,10,20,0) # color=red text={7}
+box(-1.0,1547.93,10,20,0) # color=red text={8}
+box(35.68,1489.93,10,20,0) # color=red text={9}
+box(404.29,1458.96,10,20,0) # color=red text={10}
+box(452.31,1425.75,10,20,0) # color=red text={11}
+box(-60.41,1400.77,10,20,0) # color=red text={12}
+box(138.12,1369.68,10,20,0) # color=red text={13}
+box(-254.72,1326.69,10,20,0) # color=red text={14}
+box(530.06,1225.03,10,20,0) # color=red text={15}
+box(297.86,1153.33,10,20,0) # color=red text={16}
+box(319.07,1138.15,10,20,0) # color=red text={17}
+box(-93.4,1120.56,10,20,0) # color=red text={18}
+box(-64.47,1081.29,10,20,0) # color=red text={19}
+box(212.17,1036.48,10,20,0) # color=red text={20}
+box(-262.17,991.70,10,20,0) # color=red text={21}
+box(-147.95,910.32,10,20,0) # color=red text={22}
+box(147.33,872.50,10,20,0) # color=red text={23}
+box(-300.9,852.01,10,20,0) # color=red text={24}
+box(234.53,811.87,10,20,0) # color=red text={25}
+box(-76.96,753.80,10,20,0) # color=red text={26}
+box(-181.31,727.21,10,20,0) # color=red text={27}
+box(171.65,702.72,10,20,0) # color=red text={28}
+box(-106.43,696.95,10,20,0) # color=red text={29}
+box(59.31,654.57,10,20,0) # color=red text={30}
+box(369.61,583.64,10,20,0) # color=red text={31}
+box(100.67,565.99,10,20,0) # color=red text={32}
+box(-184.29,556.08,10,20,0) # color=red text={33}
+box(63.17,510.55,10,20,0) # color=red text={34}
+box(-57.36,435.89,10,20,0) # color=red text={35}
+box(195.6,411.25,10,20,0) # color=red text={36}
+box(238.54,371.39,10,20,0) # color=red text={37}
+box(122.85,325.03,10,20,0) # color=red text={38}
+box(77.11,304.83,10,20,0) # color=red text={39}
+box(308.81,280.87,10,20,0) # color=red text={40}
+box(458.27,234.71,10,20,0) # color=red text={41}
+box(513.76,208.07,10,20,0) # color=red text={42}
+box(160.96,203.63,10,20,0) # color=red text={43}
+box(-41.64,152.68,10,20,0) # color=red text={44}
+box(-17.76,38.60,10,20,0) # color=red text={45}
+box(130.27,1897.89,10,20,0) # color=red text={LyC 1}
+box(170.9,1822.61,10,20,0) # color=red text={LyC 2}
+box(212.43,1732.84,10,20,0) # color=red text={LyC 3}
+box(223.38,1700.52,10,20,0) # color=red text={LyC 4}
+box(37.48,1661.35,10,20,0) # color=red text={LyC 5}
+box(-176.88,1030.61,10,20,0) # color=red text={LyC 6}
+box(-328.95,279.56,10,20,0) # color=red text={LyC 7}
+box(-268.45,179.01,10,20,0) # color=red text={LyC 8}
+box(-104.5,1579.82,10,20,0) # color=red text={OVI 1}
+box(137.87,1282.51,10,20,0) # color=red text={OVI 2}
+box(256.54,1203.24,10,20,0) # color=red text={OVI 3}
+box(-6.76,1191.93,10,20,0) # color=red text={OVI 4}
+box(338.79,1167.07,10,20,0) # color=red text={OVI 5}
+box(155.97,1056.49,10,20,0) # color=red text={OVI 6}
+box(244.44,936.35,10,20,0) # color=red text={OVI 7}
+box(100.19,916.12,10,20,0) # color=red text={OVI 8}
+box(-69.49,863.13,10,20,0) # color=red text={OVI 9}
+box(-283.76,504.05,10,20,0) # color=red text={OVI 10}
+box(298.97,354.38,10,20,0) # color=red text={OVI 11}
+box(-149.05,348.80,10,20,0) # color=red text={OVI 12}
+box(311.0,182.33,10,20,0) # color=red text={OVI 13}
+box(29.34,119.46,10,20,0) # color=red text={OVI 14}
+box(197.84,-5.20,10,20,0) # color=red text={OVI 15}
+box(-303.45,975.75,10,20,0) # color=red text={QSO 1}
+box(306.26,465.38,10,20,0) # color=red text={QSO 2}
+box(489.12,81.87,10,20,0) # color=red text={QSO 3}
+box(332.79,537.15,10,20,0) # color=red text={QSOgal 2}
+box(398.04,80.32,10,20,0) # color=red text={QSOgal 4}
+box(420.68,61.03,10,20,0) # color=red text={QSOgal 5}
+box(386.89,22.15,10,20,0) # color=red text={QSOgal 6}
+box(632.59,1905.32,10,20,0) # color=white text={1}
+box(572.29,1871.72,10,20,0) # color=white text={2}
+box(590.08,1769.80,10,20,0) # color=white text={3}
+box(685.71,1722.41,10,20,0) # color=white text={4}
+box(249.1,1640.42,10,20,0) # color=white text={5}
+box(160.83,1624.20,10,20,0) # color=white text={6}
+box(540.64,1595.12,10,20,0) # color=white text={7}
+box(574.6,1548.58,10,20,0) # color=white text={8}
+box(400.91,1490.45,10,20,0) # color=white text={9}
+box(620.06,1459.43,10,20,0) # color=white text={10}
+box(949.13,1426.59,10,20,0) # color=white text={11}
+box(518.08,1401.61,10,20,0) # color=white text={12}
+box(745.47,1370.90,10,20,0) # color=white text={13}
+box(252.32,1327.24,10,20,0) # color=white text={14}
+box(747.53,1225.00,10,20,0) # color=white text={15}
+box(800.84,1154.28,10,20,0) # color=white text={16}
+box(532.22,1138.53,10,20,0) # color=white text={17}
+box(510.01,1121.56,10,20,0) # color=white text={18}
+box(536.52,1082.34,10,20,0) # color=white text={19}
+box(721.06,1037.58,10,20,0) # color=white text={20}
+box(340.26,993.60,10,20,0) # color=white text={21}
+box(444.32,911.69,10,20,0) # color=white text={22}
+box(640.76,873.51,10,20,0) # color=white text={23}
+box(278.79,855.48,10,20,0) # color=white text={24}
+box(418.24,812.26,10,20,0) # color=white text={25}
+box(501.3,754.97,10,20,0) # color=white text={26}
+box(456.78,729.47,10,20,0) # color=white text={27}
+box(834.85,704.04,10,20,0) # color=white text={28}
+box(85.82,697.40,10,20,0) # color=white text={29}
+box(128.29,654.68,10,20,0) # color=white text={30}
+box(714.93,583.94,10,20,0) # color=white text={31}
+box(315.98,566.37,10,20,0) # color=white text={32}
+box(51.03,557.01,10,20,0) # color=white text={33}
+box(286.47,510.93,10,20,0) # color=white text={34}
+box(239.0,436.57,10,20,0) # color=white text={35}
+box(422.7,411.59,10,20,0) # color=white text={36}
+box(461.7,371.65,10,20,0) # color=white text={37}
+box(716.18,325.97,10,20,0) # color=white text={38}
+box(518.27,305.65,10,20,0) # color=white text={39}
+box(482.54,280.89,10,20,0) # color=white text={40}
+box(681.86,234.57,10,20,0) # color=white text={41}
+box(711.88,208.08,10,20,0) # color=white text={42}
+box(330.22,203.79,10,20,0) # color=white text={43}
+box(384.18,154.12,10,20,0) # color=white text={44}
+box(420.11,40.40,10,20,0) # color=white text={45}
+box(-3033.24,1897.44,10,20,0) # color=white text={LyC 1}
+box(-2859.19,1817.98,10,20,0) # color=white text={LyC 2}
+box(-2880.01,1725.37,10,20,0) # color=white text={LyC 3}
+box(-2862.36,1692.72,10,20,0) # color=white text={LyC 4}
+box(-3035.95,1659.56,10,20,0) # color=white text={LyC 5}
+box(-3193.66,1024.55,10,20,0) # color=white text={LyC 6}
+box(-3583.2,271.23,10,20,0) # color=white text={LyC 7}
+box(-3309.67,178.92,10,20,0) # color=white text={LyC 8}
+box(-1325.9,1577.99,10,20,0) # color=white text={OVI 1}
+box(-1330.27,1279.45,10,20,0) # color=white text={OVI 2}
+box(-1386.99,1199.87,10,20,0) # color=white text={OVI 3}
+box(-1482.31,1189.24,10,20,0) # color=white text={OVI 4}
+box(-861.79,1165.05,10,20,0) # color=white text={OVI 5}
+box(-1487.66,1052.96,10,20,0) # color=white text={OVI 6}
+box(-742.17,934.26,10,20,0) # color=white text={OVI 7}
+box(-895.02,914.15,10,20,0) # color=white text={OVI 8}
+box(-1183.62,861.04,10,20,0) # color=white text={OVI 9}
+box(-1656.52,494.44,10,20,0) # color=white text={OVI 10}
+box(-714.8,353.66,10,20,0) # color=white text={OVI 11}
+box(-1639.95,343.98,10,20,0) # color=white text={OVI 12}
+box(-1358.6,183.55,10,20,0) # color=white text={OVI 13}
+box(-937.64,116.58,10,20,0) # color=white text={OVI 14}
+box(-922.19,-3.82,10,20,0) # color=white text={OVI 15}
+box(256.72,978.07,10,20,0) # color=white text={QSO 1}
+box(597.25,465.73,10,20,0) # color=white text={QSO 2}
+box(710.13,82.23,10,20,0) # color=white text={QSO 3}
+box(622.82,537.50,10,20,0) # color=white text={QSOgal 2}
+box(621.56,80.05,10,20,0) # color=white text={QSOgal 4}
+box(646.27,60.86,10,20,0) # color=white text={QSOgal 5}
+box(617.75,21.74,10,20,0) # color=white text={QSOgal 6}
